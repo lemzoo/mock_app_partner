@@ -1,4 +1,5 @@
-from flask import Flask, request, abort
+from flask import Flask, abort
+from requests import request
 
 
 app = Flask(__name__)
