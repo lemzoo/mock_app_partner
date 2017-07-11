@@ -1,0 +1,2 @@
+# Mocker l'application partenaire
+
