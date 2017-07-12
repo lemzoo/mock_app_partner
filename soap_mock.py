@@ -18,7 +18,7 @@ class SoapMock:
         self.response_time = response_time
     
     def handle(self, request):
-        print('Handles %s' % self.route)
+        print('Handles "%s" mock' % self.route)
         if self.enabled == False:
             abort(404, "disabled service")
     
@@ -29,7 +29,7 @@ class SoapMock:
         variable_value = ''
         for item in get_element_by_tag(tree, self.variable_xpath):
             variable_value = item.text
-        print('Variable value %s' % variable_value)
+        print('Variable value="%s"' % variable_value)
 
         if self.response_time > 0:
             print('Waiting for %s s' % self.response_time)

@@ -18,7 +18,7 @@ def handle_home():
 @app.route('/partenaires/<partenaire>', methods=['POST'])
 def handle_request(partenaire):
     mocks = []
-    mocks.append(SoapMock('visabio', 'Call', 'visabio', 1))
+    mocks.append(SoapMock('visabio', 'Call'))
     
     response = ''
     
