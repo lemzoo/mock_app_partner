@@ -17,3 +17,17 @@ Run with the flask embedded serveur (for test and debug)
 ```python -m server```
 
 The server should run on the port 5009
+
+3 - Configuring a SoapMock instance
+
+  mocks.append(SoapMock('visabio', 'Call', 'visas', 2))
+
+arguments
+ - *Route
+ - *Xpath to the variable searched in post soap payload
+ - directory to response files ( =route if not set)
+ - response time in seconds (0 by default)
+
+
+you must put response files in `reponses/service_name/` dir.
+variable.xml, `__default__.xml` if the file does not exist
