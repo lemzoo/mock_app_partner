@@ -1,12 +1,14 @@
+from flask import abort
 from lxml import etree
 import os.path
 import time
 
+
 class SoapMock:
-    
+
     extension = 'xml'
     responses_dir = 'responses'
-    separator ='/'
+    separator = '/'
     default_response = '__default__.xml'
     response_time = 0
 
@@ -16,16 +18,16 @@ class SoapMock:
         self.variable_xpath = variable_xpath
         self.directory = directory or route
         self.response_time = response_time
-    
+
     def handle(self, request):
         print('Handles "%s" mock' % self.route)
-        if self.enabled == False:
+        if self.enabled is False:
             abort(404, "disabled service")
-    
+
         parser = etree.XMLParser(ns_clean=True)
         data = request.get_data()
         tree = etree.fromstring(data, parser)
- 
+
         variable_value = ''
         for item in get_element_by_tag(tree, self.variable_xpath):
             variable_value = item.text
@@ -39,21 +41,19 @@ class SoapMock:
         response_file_path = self.responses_dir + self.separator + self.directory + self.separator + response_file_name
         response = ''
 
-        if os.path.exists(response_file_path) == False:
+        if os.path.exists(response_file_path) is False:
             response_file_path = self.responses_dir + self.separator + self.directory + self.separator + self.default_response
         print('Returned file: %s' % response_file_path)
 
-        #TODO sale!
+        # TODO sale!
         with open(response_file_path) as fp:
             for line in fp:
                 response += line
-        
+
         return response, 200
 
-            
     def get_route(self):
         return self.route
-
 
 
 def get_element_by_tag(element, tag):
@@ -62,4 +62,3 @@ def get_element_by_tag(element, tag):
     for child in element:
         for g in get_element_by_tag(child, tag):
             yield g
-        

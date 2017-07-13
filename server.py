@@ -15,22 +15,24 @@ def handle_home():
     else:
         abort(400, "L'application partenaire est momentanement indisponible")
 
+
 @app.route('/partenaires/<partenaire>', methods=['POST'])
 def handle_request(partenaire):
     mocks = []
-    mocks.append(SoapMock('visabio', 'Call'))
-    
+    mocks.append(SoapMock('visabio', 'VisaStickerNumber'))
+
     response = ''
-    
+
     for mock in mocks:
         if mock.get_route() == partenaire:
             response, status = mock.handle(request)
             break
 
-    if response !='':
+    if response != '':
         return response, status
-    
+
     abort(400, "L'application partenaire est momentanement indisponible")
 
+
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5009)
+    app.run(host='0.0.0.0', port=5099)
