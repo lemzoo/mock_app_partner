@@ -1,3 +1,5 @@
+ ![Codeship Status for lemzoo/mock_app_partner](https://app.codeship.com/projects/a3e12310-49de-0135-be9f-5a37e0b658e1/status?branch=master)](https://app.codeship.com/projects/232357)
+ 
 # Mocker l'application partenaire
 
 1 - Installation
