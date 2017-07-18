@@ -2,11 +2,12 @@ import re
 import os.path
 import time
 
+
 class SoapMock:
 
     extension = 'xml'
     responses_dir = 'responses'
-    separator ='/'
+    separator = '/'
     default_response = '__default__.xml'
     response_time = 0
 
@@ -19,7 +20,7 @@ class SoapMock:
 
     def handle(self, request):
         print('Handles "%s" mock' % self.route)
-        if self.enabled == False:
+        if self.enabled is False:
             abort(404, "disabled service")
 
         data = request.get_data().decode("utf-8") 
