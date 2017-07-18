@@ -22,9 +22,9 @@ The server should run on the port 5009
 
 3 - Configuring a SoapMock instance
 
-  mocks.append(SoapMock('visabio', 'Call', 'visas', 2))
+```mocks.append(SoapMock('visabio', 'Call', 'visas', 2))```
 
-arguments
+arguments:
  - *Route
  - *Xpath to the variable searched in post soap payload
  - directory to response files ( =route if not set)
@@ -33,3 +33,23 @@ arguments
 
 you must put response files in `reponses/service_name/` dir.
 variable.xml, `__default__.xml` if the file does not exist
+
+4 - Routes
+
+GET on /partenaires/list returns a list of configured mocks
+```{
+  "visabio": {
+    "status": "enabled",
+    "tag": "VisaStickerNumber",
+    "directory": "responses/visabio",
+    "response time": "0",
+    "files": [
+      "1234567890.xml",
+      "__default__.xml"
+    ]
+  }
+}
+```
+
+POST on /partenaires/<PARTNER>
+return the xml file corresponding to the variable found if post payload
