@@ -1,9 +1,9 @@
-from lxml import etree
+import re
 import os.path
 import time
 
 class SoapMock:
-    
+
     extension = 'xml'
     responses_dir = 'responses'
     separator ='/'
@@ -16,19 +16,14 @@ class SoapMock:
         self.variable_xpath = variable_xpath
         self.directory = directory or route
         self.response_time = response_time
-    
+
     def handle(self, request):
         print('Handles "%s" mock' % self.route)
         if self.enabled == False:
             abort(404, "disabled service")
-    
-        parser = etree.XMLParser(ns_clean=True)
-        data = request.get_data()
-        tree = etree.fromstring(data, parser)
- 
-        variable_value = ''
-        for item in get_element_by_tag(tree, self.variable_xpath):
-            variable_value = item.text
+
+        data = request.get_data().decode("utf-8") 
+        variable_value = self.get_variable_value(data)
         print('Variable value="%s"' % variable_value)
 
         if self.response_time > 0:
@@ -36,30 +31,33 @@ class SoapMock:
             time.sleep(self.response_time)
 
         response_file_name = variable_value + '.' + self.extension
-        response_file_path = self.responses_dir + self.separator + self.directory + self.separator + response_file_name
-        response = ''
+        response_file_path = self.generate_file_path(response_file_name)
 
         if os.path.exists(response_file_path) == False:
-            response_file_path = self.responses_dir + self.separator + self.directory + self.separator + self.default_response
+            response_file_path = self.generate_file_path(self.default_response)
         print('Returned file: %s' % response_file_path)
 
-        #TODO sale!
+        response = ''
         with open(response_file_path) as fp:
             for line in fp:
                 response += line
-        
-        return response, 200
 
-            
+        return 200, response
+
+    def generate_file_path(self, filename):
+        return self.responses_dir + self.separator + self.directory + self.separator + filename
+
     def get_route(self):
         return self.route
 
+    def get_variable_value(self, data):
+        variable_regex = "%s>(.+?)<" % self.variable_xpath
+        variable_pattern = re.compile(variable_regex)
+        values = re.findall(variable_pattern, data)
+        if len(values) > 0:
+            return values[0]
+        return ''
 
-
-def get_element_by_tag(element, tag):
-    if element.tag.endswith(tag):
-        yield element
-    for child in element:
-        for g in get_element_by_tag(child, tag):
-            yield g
-        
+    def get_response_files(self):
+        files = os.listdir(self.responses_dir + self.separator + self.directory)
+        return files
