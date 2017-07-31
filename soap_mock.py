@@ -11,7 +11,7 @@ class SoapMock:
     default_response = '__default__.xml'
     response_time = 0
 
-    def __init__(self, route, variable_xpath, directory=None, response_time=0):
+    def __init__(self, route, variable_xpath='Call', directory=None, response_time=0):
         self.route = route
         self.enabled = True
         self.variable_xpath = variable_xpath
@@ -23,7 +23,7 @@ class SoapMock:
         if self.enabled is False:
             abort(404, "disabled service")
 
-        data = request.get_data().decode("utf-8") 
+        data = request.get_data().decode("utf-8")
         variable_value = self.get_variable_value(data)
         print('Variable value="%s"' % variable_value)
 
@@ -43,7 +43,7 @@ class SoapMock:
             for line in fp:
                 response += line
 
-        return 200, response
+        return response
 
     def generate_file_path(self, filename):
         return self.responses_dir + self.separator + self.directory + self.separator + filename
