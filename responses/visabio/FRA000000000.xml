@@ -1,30 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CSRetrieval xmlns="http://www.visabio.fr/france/visabio/xsd/v1/csmessages" xmlns:vdta="http://www.visabio.fr/france/visabio/xsd/v1/types/Application" xmlns:vdtc="http://www.visabio.fr/france/visabio/xsd/v1/types/Common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.visabio.fr/france/visabio/xsd/v1/csmessages CSRetrieval.xsd">
-   <Header>
-      <vdtc:MessageID>00000000077789784</vdtc:MessageID>
-      <vdtc:LogicalSessionID>99000000065316255</vdtc:LogicalSessionID>
-      <vdtc:DateTime>2017-03-15T14:15:26.0Z</vdtc:DateTime>
-      <vdtc:User>0008.01</vdtc:User>
-      <vdtc:EndUserRole>0000</vdtc:EndUserRole>
-      <vdtc:SystemID>VISABIO</vdtc:SystemID>
-      <vdtc:Contract>0002</vdtc:Contract>
-      <vdtc:Operation>0016</vdtc:Operation>
-      <vdtc:Variant>0000</vdtc:Variant>
-   </Header>
-   <Response>
-      <RCI>
-         <vdtc:ReturnCode>0001</vdtc:ReturnCode>
-      </RCI>
-      <ActionResult>
-         <ApplicationExamination>
-            <vdta:DateOfBirth>19640305</vdta:DateOfBirth>
-            <vdta:ApplicantName>
-               <vdta:Surname>
-                  <vdta:SourceValue PreTransliterated="true">SAIDI</vdta:SourceValue>
-                  <vdta:TransliteratedValues>
-                     <vdta:TransliteratedValue>SAIDI</vdta:TransliteratedValue>
-                  </vdta:TransliteratedValues>
-               </vdta:Surname>
+<CSRetrieval xmlns="http://www.visabio.fr/france/visabio/xsd/v1/csmessages"
+             xmlns:vdta="http://www.visabio.fr/france/visabio/xsd/v1/types/Application"
+             xmlns:vdtc="http://www.visabio.fr/france/visabio/xsd/v1/types/Common"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://www.visabio.fr/france/visabio/xsd/v1/csmessages CSRetrieval.xsd">
+  <Header>
+    <vdtc:MessageID>00000000077789784</vdtc:MessageID>
+    <vdtc:LogicalSessionID>99000000065316255</vdtc:LogicalSessionID>
+    <vdtc:DateTime>2017-03-15T14:15:26.0Z</vdtc:DateTime>
+    <vdtc:User>0008.01</vdtc:User>
+    <vdtc:EndUserRole>0000</vdtc:EndUserRole>
+    <vdtc:SystemID>VISABIO</vdtc:SystemID>
+    <vdtc:Contract>0002</vdtc:Contract>
+    <vdtc:Operation>0016</vdtc:Operation>
+    <vdtc:Variant>0000</vdtc:Variant>
+  </Header>
+  <Response>
+    <RCI>
+      <vdtc:ReturnCode>0001</vdtc:ReturnCode>
+    </RCI>
+    <ActionResult>
+      <ApplicationExamination>
+        <vdta:DateOfBirth>19640305</vdta:DateOfBirth>
+        <vdta:ApplicantName>
+          <vdta:Surname>
+            <vdta:SourceValue PreTransliterated="true">SAIDI</vdta:SourceValue>
+            <vdta:TransliteratedValues>
+              <vdta:TransliteratedValue>SAIDI</vdta:TransliteratedValue>
+            </vdta:TransliteratedValues>
+          </vdta:Surname>
                <vdta:Firstnames>
                   <vdta:SourceValue PreTransliterated="true">ABDELHAKIM</vdta:SourceValue>
                   <vdta:TransliteratedValues>
