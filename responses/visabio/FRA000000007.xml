@@ -171,7 +171,7 @@
                      </vdta:Firstnames>
                   </vdta:FatherName>
                   <vdta:NationalityAtBirth>0004.01</vdta:NationalityAtBirth>
-                  <vdta:NationalityForApplication>0004.01</vdta:NationalityForApplication>
+                  <vdta:NationalityForApplication>0001.01</vdta:NationalityForApplication>
                </vdta:ApplicantData>
                <vdta:ApplicationNumber>FRAALG2013146043200</vdta:ApplicationNumber>
                <vdta:ApplicationAuthority>
