@@ -1,280 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <CSRetrieval xmlns="http://www.visabio.fr/france/visabio/xsd/v1/csmessages" xmlns:vdta="http://www.visabio.fr/france/visabio/xsd/v1/types/Application" xmlns:vdtc="http://www.visabio.fr/france/visabio/xsd/v1/types/Common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.visabio.fr/france/visabio/xsd/v1/csmessages CSRetrieval.xsd">
-  <Header>
-    <vdtc:MessageID>00000000077789784</vdtc:MessageID>
-    <vdtc:LogicalSessionID>99000000065316255</vdtc:LogicalSessionID>
-    <vdtc:DateTime>2017-03-15T14:15:26.0Z</vdtc:DateTime>
-    <vdtc:User>0008.01</vdtc:User>
-    <vdtc:EndUserRole>0000</vdtc:EndUserRole>
-    <vdtc:SystemID>VISABIO</vdtc:SystemID>
-    <vdtc:Contract>0002</vdtc:Contract>
-    <vdtc:Operation>0016</vdtc:Operation>
-    <vdtc:Variant>0000</vdtc:Variant>
-  </Header>
-  <Response>
-    <RCI>
-      <vdtc:ReturnCode>0001</vdtc:ReturnCode>
-    </RCI>
-    <ActionResult>
-      <ApplicationExamination>
-        <vdta:DateOfBirth>19640305</vdta:DateOfBirth>
-        <vdta:ApplicantName>
-          <vdta:Surname>
-            <vdta:SourceValue PreTransliterated="true">SAIDI</vdta:SourceValue>
-            <vdta:TransliteratedValues>
-              <vdta:TransliteratedValue>SAIDI</vdta:TransliteratedValue>
-            </vdta:TransliteratedValues>
-          </vdta:Surname>
-          <vdta:Firstnames>
-            <vdta:SourceValue PreTransliterated="true">ABDELHAKIM</vdta:SourceValue>
-            <vdta:TransliteratedValues>
-              <vdta:TransliteratedValue>ABDELHAKIM</vdta:TransliteratedValue>
-            </vdta:TransliteratedValues>
-          </vdta:Firstnames>
-        </vdta:ApplicantName>
-        <vdta:Sex>0001.01</vdta:Sex>
-        <vdta:PlaceOfBirth>
-          <vdta:Country>0004.01</vdta:Country>
-          <vdta:Place>
-            <vdta:SourceValue PreTransliterated="true">DELLYS</vdta:SourceValue>
-            <vdta:TransliteratedValues>
-              <vdta:TransliteratedValue>DELLYS</vdta:TransliteratedValue>
-            </vdta:TransliteratedValues>
-          </vdta:Place>
-        </vdta:PlaceOfBirth>
-        <vdta:Owner>0008.01</vdta:Owner>
-        <vdta:ApplicationData>
-          <vdta:DateOfApplication>2013-11-17T11:45:18.0Z</vdta:DateOfApplication>
-          <vdta:DurationOfIntendedStay>90</vdta:DurationOfIntendedStay>
-          <vdta:Host>
-            <vdta:HostOrganisation>
-              <vdta:Address>
-                <vdta:Country>0074.01</vdta:Country>
-                <vdta:City>
-                  <vdta:SourceValue PreTransliterated="true">PARIS</vdta:SourceValue>
+   <Header>
+      <vdtc:MessageID>00000000077789784</vdtc:MessageID>
+      <vdtc:LogicalSessionID>99000000065316255</vdtc:LogicalSessionID>
+      <vdtc:DateTime>2017-03-15T14:15:26.0Z</vdtc:DateTime>
+      <vdtc:User>0008.01</vdtc:User>
+      <vdtc:EndUserRole>0000</vdtc:EndUserRole>
+      <vdtc:SystemID>VISABIO</vdtc:SystemID>
+      <vdtc:Contract>0002</vdtc:Contract>
+      <vdtc:Operation>0016</vdtc:Operation>
+      <vdtc:Variant>0000</vdtc:Variant>
+   </Header>
+   <Response>
+      <RCI>
+         <vdtc:ReturnCode>0001</vdtc:ReturnCode>
+      </RCI>
+      <ActionResult>
+         <ApplicationExamination>
+            <vdta:DateOfBirth>19640305</vdta:DateOfBirth>
+            <vdta:ApplicantName>
+               <vdta:Surname>
+                  <vdta:SourceValue PreTransliterated="true">SAIDI</vdta:SourceValue>
                   <vdta:TransliteratedValues>
-                    <vdta:TransliteratedValue>PARIS</vdta:TransliteratedValue>
+                     <vdta:TransliteratedValue>SAIDI</vdta:TransliteratedValue>
                   </vdta:TransliteratedValues>
-                </vdta:City>
-                <vdta:PostCode>
-                  <vdta:SourceValue PreTransliterated="true">75018</vdta:SourceValue>
+               </vdta:Surname>
+               <vdta:Firstnames>
+                  <vdta:SourceValue PreTransliterated="true">ABDELHAKIM</vdta:SourceValue>
                   <vdta:TransliteratedValues>
-                    <vdta:TransliteratedValue>75018</vdta:TransliteratedValue>
+                     <vdta:TransliteratedValue>ABDELHAKIM</vdta:TransliteratedValue>
                   </vdta:TransliteratedValues>
-                </vdta:PostCode>
-                <vdta:Street>
-                  <vdta:SourceValue PreTransliterated="true">PLACE DE LA CHAPELLE 6</vdta:SourceValue>
+               </vdta:Firstnames>
+            </vdta:ApplicantName>
+            <vdta:Sex>0001.01</vdta:Sex>
+            <vdta:PlaceOfBirth>
+               <vdta:Country>0004.01</vdta:Country>
+               <vdta:Place>
+                  <vdta:SourceValue PreTransliterated="true">DELLYS</vdta:SourceValue>
                   <vdta:TransliteratedValues>
-                    <vdta:TransliteratedValue>PLACE DE LA CHAPELLE 6</vdta:TransliteratedValue>
+                     <vdta:TransliteratedValue>DELLYS</vdta:TransliteratedValue>
                   </vdta:TransliteratedValues>
-                </vdta:Street>
-              </vdta:Address>
-              <vdta:Name>
-                <vdta:SourceValue PreTransliterated="true">HOTEL DU SQUARE</vdta:SourceValue>
-                <vdta:TransliteratedValues>
-                  <vdta:TransliteratedValue>HOTEL DU SQUARE</vdta:TransliteratedValue>
-                </vdta:TransliteratedValues>
-              </vdta:Name>
-              <vdta:ContactPerson>
-                <vdta:Surname>
-                  <vdta:SourceValue PreTransliterated="true">N/A</vdta:SourceValue>
+               </vdta:Place>
+            </vdta:PlaceOfBirth>
+            <vdta:Owner>0008.01</vdta:Owner>
+            <vdta:ApplicationData>
+               <vdta:DateOfApplication>2013-11-17T11:45:18.0Z</vdta:DateOfApplication>
+               <vdta:DurationOfIntendedStay>90</vdta:DurationOfIntendedStay>
+               <vdta:Host>
+                  <vdta:HostOrganisation>
+                     <vdta:Address>
+                        <vdta:Country>0074.01</vdta:Country>
+                        <vdta:City>
+                           <vdta:SourceValue PreTransliterated="true">PARIS</vdta:SourceValue>
+                           <vdta:TransliteratedValues>
+                              <vdta:TransliteratedValue>PARIS</vdta:TransliteratedValue>
+                           </vdta:TransliteratedValues>
+                        </vdta:City>
+                        <vdta:PostCode>
+                           <vdta:SourceValue PreTransliterated="true">75018</vdta:SourceValue>
+                           <vdta:TransliteratedValues>
+                              <vdta:TransliteratedValue>75018</vdta:TransliteratedValue>
+                           </vdta:TransliteratedValues>
+                        </vdta:PostCode>
+                        <vdta:Street>
+                           <vdta:SourceValue PreTransliterated="true">PLACE DE LA CHAPELLE 6</vdta:SourceValue>
+                           <vdta:TransliteratedValues>
+                              <vdta:TransliteratedValue>PLACE DE LA CHAPELLE 6</vdta:TransliteratedValue>
+                           </vdta:TransliteratedValues>
+                        </vdta:Street>
+                     </vdta:Address>
+                     <vdta:Name>
+                        <vdta:SourceValue PreTransliterated="true">HOTEL DU SQUARE</vdta:SourceValue>
+                        <vdta:TransliteratedValues>
+                           <vdta:TransliteratedValue>HOTEL DU SQUARE</vdta:TransliteratedValue>
+                        </vdta:TransliteratedValues>
+                     </vdta:Name>
+                     <vdta:ContactPerson>
+                        <vdta:Surname>
+                           <vdta:SourceValue PreTransliterated="true">N/A</vdta:SourceValue>
+                           <vdta:TransliteratedValues>
+                              <vdta:TransliteratedValue>N/A</vdta:TransliteratedValue>
+                           </vdta:TransliteratedValues>
+                        </vdta:Surname>
+                        <vdta:Firstnames>
+                           <vdta:SourceValue PreTransliterated="true">N/A</vdta:SourceValue>
+                           <vdta:TransliteratedValues>
+                              <vdta:TransliteratedValue>N/A</vdta:TransliteratedValue>
+                           </vdta:TransliteratedValues>
+                        </vdta:Firstnames>
+                     </vdta:ContactPerson>
+                  </vdta:HostOrganisation>
+               </vdta:Host>
+               <vdta:IntendedBorderOfFirstEntry>
+                  <vdtc:Country>0074.01</vdtc:Country>
+                  <vdta:Place>
+                     <vdta:SourceValue PreTransliterated="true">0074.01</vdta:SourceValue>
+                     <vdta:TransliteratedValues>
+                        <vdta:TransliteratedValue>0074.01</vdta:TransliteratedValue>
+                     </vdta:TransliteratedValues>
+                  </vdta:Place>
+               </vdta:IntendedBorderOfFirstEntry>
+               <vdta:IntendedDateOfArrival>20131119</vdta:IntendedDateOfArrival>
+               <vdta:IntendedDateOfDeparture>20140304</vdta:IntendedDateOfDeparture>
+               <vdta:MainDestination>
+                  <vdta:SourceValue PreTransliterated="true">0008.01</vdta:SourceValue>
                   <vdta:TransliteratedValues>
-                    <vdta:TransliteratedValue>N/A</vdta:TransliteratedValue>
+                     <vdta:TransliteratedValue>0008.01</vdta:TransliteratedValue>
                   </vdta:TransliteratedValues>
-                </vdta:Surname>
-                <vdta:Firstnames>
-                  <vdta:SourceValue PreTransliterated="true">N/A</vdta:SourceValue>
-                  <vdta:TransliteratedValues>
-                    <vdta:TransliteratedValue>N/A</vdta:TransliteratedValue>
-                  </vdta:TransliteratedValues>
-                </vdta:Firstnames>
-              </vdta:ContactPerson>
-            </vdta:HostOrganisation>
-          </vdta:Host>
-          <vdta:IntendedBorderOfFirstEntry>
-            <vdtc:Country>0074.01</vdtc:Country>
-            <vdta:Place>
-              <vdta:SourceValue PreTransliterated="true">0074.01</vdta:SourceValue>
-              <vdta:TransliteratedValues>
-                <vdta:TransliteratedValue>0074.01</vdta:TransliteratedValue>
-              </vdta:TransliteratedValues>
-            </vdta:Place>
-          </vdta:IntendedBorderOfFirstEntry>
-          <vdta:IntendedDateOfArrival>20131119</vdta:IntendedDateOfArrival>
-          <vdta:IntendedDateOfDeparture>20140304</vdta:IntendedDateOfDeparture>
-          <vdta:MainDestination>
-            <vdta:SourceValue PreTransliterated="true">0008.01</vdta:SourceValue>
-            <vdta:TransliteratedValues>
-              <vdta:TransliteratedValue>0008.01</vdta:TransliteratedValue>
-            </vdta:TransliteratedValues>
-          </vdta:MainDestination>
-
-          <vdta:Occupation>
-            <vdta:Occupation>0007.01</vdta:Occupation>
-            <vdta:EmployerName>
-              <vdta:SourceValue PreTransliterated="true">N/A</vdta:SourceValue>
-              <vdta:TransliteratedValues>
-                <vdta:TransliteratedValue>N/A</vdta:TransliteratedValue>
-              </vdta:TransliteratedValues>
-            </vdta:EmployerName>
-            <vdta:OtherOccupation>
-              <vdta:SourceValue PreTransliterated="true">N/A</vdta:SourceValue>
-              <vdta:TransliteratedValues>
-                <vdta:TransliteratedValue>N/A</vdta:TransliteratedValue>
-              </vdta:TransliteratedValues>
-            </vdta:OtherOccupation>
-          </vdta:Occupation>
-
-          <vdta:PlaceOfApplication>
-            <vdtc:Country>0004.01</vdtc:Country>
-            <vdta:Place>
-              <vdta:SourceValue PreTransliterated="true">Alger</vdta:SourceValue>
-              <vdta:TransliteratedValues>
-                <vdta:TransliteratedValue>Alger</vdta:TransliteratedValue>
-              </vdta:TransliteratedValues>
-            </vdta:Place>
-          </vdta:PlaceOfApplication>
-          <vdta:PurposeOfTravel>
-            <vdta:PurposeType>0003.01</vdta:PurposeType>
-          </vdta:PurposeOfTravel>
-          <vdta:School>
-            <vdta:SchoolName>
-              <vdta:SourceValue PreTransliterated="true">N/A</vdta:SourceValue>
-              <vdta:TransliteratedValues>
-                <vdta:TransliteratedValue>N/A</vdta:TransliteratedValue>
-              </vdta:TransliteratedValues>
-            </vdta:SchoolName>
-          </vdta:School>
-          <vdta:TravelDocument>
-            <vdta:TravelDocumentType>0001.01</vdta:TravelDocumentType>
-            <vdta:TravelDocumentNumber>9816129</vdta:TravelDocumentNumber>
-            <vdta:DateOfIssue>2011-08-07</vdta:DateOfIssue>
-            <vdta:ValidUntil>2015-11-24</vdta:ValidUntil>
-            <vdta:IssuingAuthorityOfTravelDocument>
-              <vdta:SourceValue PreTransliterated="true">0004.01</vdta:SourceValue>
-              <vdta:TransliteratedValues>
-                <vdta:TransliteratedValue>0004.01</vdta:TransliteratedValue>
-              </vdta:TransliteratedValues>
-            </vdta:IssuingAuthorityOfTravelDocument>
-          </vdta:TravelDocument>
-          <vdta:ApplicantData>
-            <vdta:FatherName>
-              <vdta:Surname>
-                <vdta:SourceValue PreTransliterated="true">N/A</vdta:SourceValue>
-                <vdta:TransliteratedValues>
-                  <vdta:TransliteratedValue>N/A</vdta:TransliteratedVAlue>
-                </vdta:TransliteratedValues>
-              </vdta:Surname>
-              <vdta:Firstnames>
-                <vdta:SourceValue PreTransliterated="true">N/A</vdta:SourceValue>
-                <vdta:TransliteratedValues>
-                  <vdta:TransliteratedValue>N/A</vdta:TransliteratedValue>
-                </vdta:TransliteratedValues>
-              </vdta:Firstnames>
-            </vdta:FatherName>
-            <vdta:NationalityAtBirth>0004.01</vdta:NationalityAtBirth>
-            <vdta:NationalityForApplication>0004.01</vdta:NationalityForApplication>
-          </vdta:ApplicantData>
-          <vdta:ApplicationNumber>FRAALG2013146043200</vdta:ApplicationNumber>
-          <vdta:ApplicationAuthority>
-            <vdtc:AuthorityLocation>
-              <vdtc:Country>0004.01</vdtc:Country>
-              <vdtc:Place>Alger</vdtc:Place>
-            </vdtc:AuthorityLocation>
-            <vdtc:AuthorityName>Minist?e des Affaires Etrang?es et Europ?nnes</vdtc:AuthorityName>
-            <vdtc:AuthorityType>0001.01</vdtc:AuthorityType>
-          </vdta:ApplicationAuthority>
-          <vdta:ApplicationStatus>0010</vdta:ApplicationStatus>
-          <vdta:FingerprintsNotRequired>false</vdta:FingerprintsNotRequired>
-          <vdta:FingerprintsNotApplicable>false</vdta:FingerprintsNotApplicable>
-        </vdta:ApplicationData>
-        <vdta:Decisions>
-          <vdta:Decision>
-            <vdta:ApplicationDecision>
-              <vdta:GrantVisa>
-                <vdta:Authority>
+               </vdta:MainDestination>
+               <vdta:Occupation>
+                  <vdta:Occupation>0007.01</vdta:Occupation>
+                  <vdta:EmployerName>
+                     <vdta:SourceValue PreTransliterated="true">N/A</vdta:SourceValue>
+                     <vdta:TransliteratedValues>
+                        <vdta:TransliteratedValue>N/A</vdta:TransliteratedValue>
+                     </vdta:TransliteratedValues>
+                  </vdta:EmployerName>
+                  <vdta:OtherOccupation>
+                     <vdta:SourceValue PreTransliterated="true">N/A</vdta:SourceValue>
+                     <vdta:TransliteratedValues>
+                        <vdta:TransliteratedValue>N/A</vdta:TransliteratedValue>
+                     </vdta:TransliteratedValues>
+                  </vdta:OtherOccupation>
+               </vdta:Occupation>
+               <vdta:PlaceOfApplication>
+                  <vdtc:Country>0004.01</vdtc:Country>
+                  <vdta:Place>
+                     <vdta:SourceValue PreTransliterated="true">Alger</vdta:SourceValue>
+                     <vdta:TransliteratedValues>
+                        <vdta:TransliteratedValue>Alger</vdta:TransliteratedValue>
+                     </vdta:TransliteratedValues>
+                  </vdta:Place>
+               </vdta:PlaceOfApplication>
+               <vdta:PurposeOfTravel>
+                  <vdta:PurposeType>0003.01</vdta:PurposeType>
+               </vdta:PurposeOfTravel>
+               <vdta:School>
+                  <vdta:SchoolName>
+                     <vdta:SourceValue PreTransliterated="true">N/A</vdta:SourceValue>
+                     <vdta:TransliteratedValues>
+                        <vdta:TransliteratedValue>N/A</vdta:TransliteratedValue>
+                     </vdta:TransliteratedValues>
+                  </vdta:SchoolName>
+               </vdta:School>
+               <vdta:TravelDocument>
+                  <vdta:TravelDocumentType>0001.01</vdta:TravelDocumentType>
+                  <vdta:TravelDocumentNumber>9816129</vdta:TravelDocumentNumber>
+                  <vdta:DateOfIssue>2011-08-07</vdta:DateOfIssue>
+                  <vdta:ValidUntil>2015-11-24</vdta:ValidUntil>
+                  <vdta:IssuingAuthorityOfTravelDocument>
+                     <vdta:SourceValue PreTransliterated="true">0004.01</vdta:SourceValue>
+                     <vdta:TransliteratedValues>
+                        <vdta:TransliteratedValue>0004.01</vdta:TransliteratedValue>
+                     </vdta:TransliteratedValues>
+                  </vdta:IssuingAuthorityOfTravelDocument>
+               </vdta:TravelDocument>
+               <vdta:ApplicantData>
+                  <vdta:FatherName>
+                     <vdta:Surname>
+                        <vdta:SourceValue PreTransliterated="true">N/A</vdta:SourceValue>
+                        <vdta:TransliteratedValues>
+                           <vdta:TransliteratedValue>N/A</vdta:TransliteratedValue>
+                        </vdta:TransliteratedValues>
+                     </vdta:Surname>
+                     <vdta:Firstnames>
+                        <vdta:SourceValue PreTransliterated="true">N/A</vdta:SourceValue>
+                        <vdta:TransliteratedValues>
+                           <vdta:TransliteratedValue>N/A</vdta:TransliteratedValue>
+                        </vdta:TransliteratedValues>
+                     </vdta:Firstnames>
+                  </vdta:FatherName>
+                  <vdta:NationalityAtBirth>0004.01</vdta:NationalityAtBirth>
+                  <vdta:NationalityForApplication>0004.01</vdta:NationalityForApplication>
+               </vdta:ApplicantData>
+               <vdta:ApplicationNumber>FRAALG2013146043200</vdta:ApplicationNumber>
+               <vdta:ApplicationAuthority>
                   <vdtc:AuthorityLocation>
-                    <vdtc:Country>0004.01</vdtc:Country>
-                    <vdtc:Place>Alger</vdtc:Place>
+                     <vdtc:Country>0004.01</vdtc:Country>
+                     <vdtc:Place>Alger</vdtc:Place>
                   </vdtc:AuthorityLocation>
                   <vdtc:AuthorityName>Minist?e des Affaires Etrang?es et Europ?nnes</vdtc:AuthorityName>
                   <vdtc:AuthorityType>0001.01</vdtc:AuthorityType>
-                </vdta:Authority>
-                <vdta:DecisionDate>2013-12-02T10:17:44.0Z</vdta:DecisionDate>
-                <vdta:DecisionPlace>
-                  <vdtc:Country>0004.01</vdtc:Country>
-                  <vdta:Place>
-                    <vdta:SourceValue PreTransliterated="true">Alger</vdta:SourceValue>
-                    <vdta:TransliteratedValues>
-                      <vdta:TransliteratedValue>Alger</vdta:TransliteratedValue>
-                    </vdta:TransliteratedValues>
-                  </vdta:Place>
-                </vdta:DecisionPlace>
-                <vdta:Owner>0008.01</vdta:Owner>
-                <vdta:CreatedOn>2013-12-02T09:08:11.0Z</vdta:CreatedOn>
-              </vdta:GrantVisa>
-            </vdta:ApplicationDecision>
-            <vdta:DecisionID>4502709</vdta:DecisionID>
-          </vdta:Decision>
-          <vdta:Decision>
-            <vdta:VisaCreationDecision>
-              <vdta:IssueVisa>
-                <vdta:Authority>
-                  <vdtc:AuthorityLocation>
-                    <vdtc:Country>0004.01</vdtc:Country>
-                    <vdtc:Place>Alger</vdtc:Place>
-                  </vdtc:AuthorityLocation>
-                  <vdtc:AuthorityName>Minist?e des Affaires Etrang?es et Europ?nnes</vdtc:AuthorityName>
-                  <vdtc:AuthorityType>0001.01</vdtc:AuthorityType>
-                </vdta:Authority>
-                <vdta:DecisionDate>2013-12-02T10:17:56.0Z</vdta:DecisionDate>
-                <vdta:DecisionPlace>
-                  <vdtc:Country>0004.01</vdtc:Country>
-                  <vdta:Place>
-                    <vdta:SourceValue PreTransliterated="true">Alger</vdta:SourceValue>
-                    <vdta:TransliteratedValues>
-                      <vdta:TransliteratedValue>Alger</vdta:TransliteratedValue>
-                    </vdta:TransliteratedValues>
-                  </vdta:Place>
-                </vdta:DecisionPlace>
-                <vdta:Owner>0008.01</vdta:Owner>
-                <vdta:CreatedOn>2013-12-02T09:40:03.0Z</vdta:CreatedOn>
-                <vdta:VisaSticker>
-                  <vdta:VisaStickerNumber>FRA507169733</vdta:VisaStickerNumber>
-                  <vdta:VisaType>0002.01</vdta:VisaType>
-                  <vdta:PeriodOfValidity>
-                    <vdtc:Begin>2013-12-02T12:00:00.0Z</vdtc:Begin>
-                    <vdtc:End>2014-05-30T12:00:00.0Z</vdtc:End>
-                  </vdta:PeriodOfValidity>
-                  <vdta:DurationOfStay>30</vdta:DurationOfStay>
-                  <vdta:NumberOfEntries>0003.01</vdta:NumberOfEntries>
-                  <vdta:TerritorialValidity>
-                    <vdta:TravelTerritories>
-                      <vdta:TravelTerritory>0021.01</vdta:TravelTerritory>
-                    </vdta:TravelTerritories>
-                    <vdta:ValidFor>ETATS SCHENGEN</vdta:ValidFor>
-                  </vdta:TerritorialValidity>
-                  <vdta:VisaStickerStatus>0005</vdta:VisaStickerStatus>
-                </vdta:VisaSticker>
-                <vdta:IssuanceOnSeparateSheet>false</vdta:IssuanceOnSeparateSheet>
-              </vdta:IssueVisa>
-            </vdta:VisaCreationDecision>
-            <vdta:DecisionID>4503647</vdta:DecisionID>
-          </vdta:Decision>
-        </vdta:Decisions>
-        <vdta:Attachments>
-          <vdta:FacialImages>
-            <vdta:FacialImage>
-              <vdta:AttachmentID>
-                <vdta:AttachmentIDValue>14038310</vdta:AttachmentIDValue>
-                <vdta:AttachmentIDFormat>jpg</vdta:AttachmentIDFormat>
-              </vdta:AttachmentID>
-              <vdta:MasterData>
-                <vdta:OriginalTimestamp>2013-11-19T16:09:16.0Z</vdta:OriginalTimestamp>
-                <vdta:CreationTimestamp>2013-11-19T16:09:16.0Z</vdta:CreationTimestamp>
-                <vdta:ImageType>0001.01</vdta:ImageType>
-              </vdta:MasterData>
-              <vdta:DataSource>
-                <vdta:PortraitImage format="jpg">/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0s
+               </vdta:ApplicationAuthority>
+               <vdta:ApplicationStatus>0010</vdta:ApplicationStatus>
+               <vdta:FingerprintsNotRequired>false</vdta:FingerprintsNotRequired>
+               <vdta:FingerprintsNotApplicable>false</vdta:FingerprintsNotApplicable>
+            </vdta:ApplicationData>
+            <vdta:Decisions>
+               <vdta:Decision>
+                  <vdta:ApplicationDecision>
+                     <vdta:GrantVisa>
+                        <vdta:Authority>
+                           <vdtc:AuthorityLocation>
+                              <vdtc:Country>0004.01</vdtc:Country>
+                              <vdtc:Place>Alger</vdtc:Place>
+                           </vdtc:AuthorityLocation>
+                           <vdtc:AuthorityName>Minist?e des Affaires Etrang?es et Europ?nnes</vdtc:AuthorityName>
+                           <vdtc:AuthorityType>0001.01</vdtc:AuthorityType>
+                        </vdta:Authority>
+                        <vdta:DecisionDate>2013-12-02T10:17:44.0Z</vdta:DecisionDate>
+                        <vdta:DecisionPlace>
+                           <vdtc:Country>0004.01</vdtc:Country>
+                           <vdta:Place>
+                              <vdta:SourceValue PreTransliterated="true">Alger</vdta:SourceValue>
+                              <vdta:TransliteratedValues>
+                                 <vdta:TransliteratedValue>Alger</vdta:TransliteratedValue>
+                              </vdta:TransliteratedValues>
+                           </vdta:Place>
+                        </vdta:DecisionPlace>
+                        <vdta:Owner>0008.01</vdta:Owner>
+                        <vdta:CreatedOn>2013-12-02T09:08:11.0Z</vdta:CreatedOn>
+                     </vdta:GrantVisa>
+                  </vdta:ApplicationDecision>
+                  <vdta:DecisionID>4502709</vdta:DecisionID>
+               </vdta:Decision>
+               <vdta:Decision>
+                  <vdta:VisaCreationDecision>
+                     <vdta:IssueVisa>
+                        <vdta:Authority>
+                           <vdtc:AuthorityLocation>
+                              <vdtc:Country>0004.01</vdtc:Country>
+                              <vdtc:Place>Alger</vdtc:Place>
+                           </vdtc:AuthorityLocation>
+                           <vdtc:AuthorityName>Minist?e des Affaires Etrang?es et Europ?nnes</vdtc:AuthorityName>
+                           <vdtc:AuthorityType>0001.01</vdtc:AuthorityType>
+                        </vdta:Authority>
+                        <vdta:DecisionDate>2013-12-02T10:17:56.0Z</vdta:DecisionDate>
+                        <vdta:DecisionPlace>
+                           <vdtc:Country>0004.01</vdtc:Country>
+                           <vdta:Place>
+                              <vdta:SourceValue PreTransliterated="true">Alger</vdta:SourceValue>
+                              <vdta:TransliteratedValues>
+                                 <vdta:TransliteratedValue>Alger</vdta:TransliteratedValue>
+                              </vdta:TransliteratedValues>
+                           </vdta:Place>
+                        </vdta:DecisionPlace>
+                        <vdta:Owner>0008.01</vdta:Owner>
+                        <vdta:CreatedOn>2013-12-02T09:40:03.0Z</vdta:CreatedOn>
+                        <vdta:VisaSticker>
+                           <vdta:VisaStickerNumber>FRA507169733</vdta:VisaStickerNumber>
+                           <vdta:VisaType>0002.01</vdta:VisaType>
+                           <vdta:PeriodOfValidity>
+                              <vdtc:Begin>2013-12-02T12:00:00.0Z</vdtc:Begin>
+                              <vdtc:End>2014-05-30T12:00:00.0Z</vdtc:End>
+                           </vdta:PeriodOfValidity>
+                           <vdta:DurationOfStay>30</vdta:DurationOfStay>
+                           <vdta:NumberOfEntries>0003.01</vdta:NumberOfEntries>
+                           <vdta:TerritorialValidity>
+                              <vdta:TravelTerritories>
+                                 <vdta:TravelTerritory>0021.01</vdta:TravelTerritory>
+                              </vdta:TravelTerritories>
+                              <vdta:ValidFor>ETATS SCHENGEN</vdta:ValidFor>
+                           </vdta:TerritorialValidity>
+                           <vdta:VisaStickerStatus>0005</vdta:VisaStickerStatus>
+                        </vdta:VisaSticker>
+                        <vdta:IssuanceOnSeparateSheet>false</vdta:IssuanceOnSeparateSheet>
+                     </vdta:IssueVisa>
+                  </vdta:VisaCreationDecision>
+                  <vdta:DecisionID>4503647</vdta:DecisionID>
+               </vdta:Decision>
+            </vdta:Decisions>
+            <vdta:Attachments>
+               <vdta:FacialImages>
+                  <vdta:FacialImage>
+                     <vdta:AttachmentID>
+                        <vdta:AttachmentIDValue>14038310</vdta:AttachmentIDValue>
+                        <vdta:AttachmentIDFormat>jpg</vdta:AttachmentIDFormat>
+                     </vdta:AttachmentID>
+                     <vdta:MasterData>
+                        <vdta:OriginalTimestamp>2013-11-19T16:09:16.0Z</vdta:OriginalTimestamp>
+                        <vdta:CreationTimestamp>2013-11-19T16:09:16.0Z</vdta:CreationTimestamp>
+                        <vdta:ImageType>0001.01</vdta:ImageType>
+                     </vdta:MasterData>
+                     <vdta:DataSource>
+                        <vdta:PortraitImage format="jpg">/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0s
 LiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUX
 Fx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8
 fHx8fHx8fHx8fHx8fHz/wAARCAGQASwDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAA
@@ -418,25 +417,25 @@ dq6H5DBk+XO2lJeUwfJAmiLJ8kZAKvI0C/hhwBfiyOLTR0MeRSRy4utovx5HGSfg
 zY1K3zV+SuDp0yUJdyRBrtyGW2iOxyRCBZQUk6QJsajRNIBxsJMOERf2IIyZQ33T
 LMj0VQ5AuSojOQ29FGSZRV1E9UntmaTJSl3Nsrk9m45W6cFbq0r9Ryfc9KteB3Ua
 W750KX0x3ab/AMBFbIEmR8lBYAPwBIUvA/ApcUQRX2GJD0Uf/9k=</vdta:PortraitImage>
-              </vdta:DataSource>
-            </vdta:FacialImage>
-          </vdta:FacialImages>
-          <vdta:FingerprintSets>
-            <vdta:FingerprintSet>
-              <vdta:AttachmentID>
-                <vdta:AttachmentIDValue>14038310</vdta:AttachmentIDValue>
-                <vdta:AttachmentIDFormat>wsq</vdta:AttachmentIDFormat>
-              </vdta:AttachmentID>
-              <vdta:MasterData>
-                <vdta:OriginalTimestamp>2013-11-19T16:09:24.0Z</vdta:OriginalTimestamp>
-                <vdta:CreationTimestamp>2013-11-19T16:09:24.0Z</vdta:CreationTimestamp>
-                <vdta:FingerprintSetType>0001.01</vdta:FingerprintSetType>
-                <vdta:QualityCheckPassed>true</vdta:QualityCheckPassed>
-              </vdta:MasterData>
-            </vdta:FingerprintSet>
-          </vdta:FingerprintSets>
-        </vdta:Attachments>
-      </ApplicationExamination>
-    </ActioAResult>
-  </Response>
+                     </vdta:DataSource>
+                  </vdta:FacialImage>
+               </vdta:FacialImages>
+               <vdta:FingerprintSets>
+                  <vdta:FingerprintSet>
+                     <vdta:AttachmentID>
+                        <vdta:AttachmentIDValue>14038310</vdta:AttachmentIDValue>
+                        <vdta:AttachmentIDFormat>wsq</vdta:AttachmentIDFormat>
+                     </vdta:AttachmentID>
+                     <vdta:MasterData>
+                        <vdta:OriginalTimestamp>2013-11-19T16:09:24.0Z</vdta:OriginalTimestamp>
+                        <vdta:CreationTimestamp>2013-11-19T16:09:24.0Z</vdta:CreationTimestamp>
+                        <vdta:FingerprintSetType>0001.01</vdta:FingerprintSetType>
+                        <vdta:QualityCheckPassed>true</vdta:QualityCheckPassed>
+                     </vdta:MasterData>
+                  </vdta:FingerprintSet>
+               </vdta:FingerprintSets>
+            </vdta:Attachments>
+         </ApplicationExamination>
+      </ActionResult>
+   </Response>
 </CSRetrieval>
