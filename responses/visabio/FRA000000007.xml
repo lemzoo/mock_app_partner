@@ -239,7 +239,7 @@
                         <vdta:CreatedOn>2013-12-02T09:40:03.0Z</vdta:CreatedOn>
                         <vdta:VisaSticker>
                            <vdta:VisaStickerNumber>FRA507169733</vdta:VisaStickerNumber>
-                           <vdta:VisaType>0004.01</vdta:VisaType>
+                           <vdta:VisaType>5006.01</vdta:VisaType>
                            <vdta:PeriodOfValidity>
                               <vdtc:Begin>2014-12-02T12:00:00.0Z</vdtc:Begin>
                               <vdtc:End>2015-05-30T12:00:00.0Z</vdtc:End>
