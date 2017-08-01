@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CSRetrieval xmlns="http://www.visabio.fr/france/visabio/xsd/v1/csmessages"
+             xmlns:vdta="http://www.visabio.fr/france/visabio/xsd/v1/types/Application"
+             xmlns:vdtc="http://www.visabio.fr/france/visabio/xsd/v1/types/Common"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://www.visabio.fr/france/visabio/xsd/v1/csmessages CSRetrieval.xsd">
+  <Header>
+    <vdtc:MessageID>00000000077789784</vdtc:MessageID>
+    <vdtc:LogicalSessionID>99000000065316255</vdtc:LogicalSessionID>
+    <vdtc:DateTime>2017-03-15T14:15:26.0Z</vdtc:DateTime>
+    <vdtc:User>0008.01</vdtc:User>
+    <vdtc:EndUserRole>0000</vdtc:EndUserRole>
+    <vdtc:SystemID>VISABIO</vdtc:SystemID>
+    <vdtc:Contract>0002</vdtc:Contract>
+    <vdtc:Operation>0016</vdtc:Operation>
+    <vdtc:Variant>0000</vdtc:Variant>
+  </Header>
+  <Response>
+    <RCI>
+      <vdtc:ReturnCode>0001</vdtc:ReturnCode>
+    </RCI>
+    <ActionResult>
+      <ApplicationExamination>
+        <vdta:DateOfBirth>19640305</vdta:DateOfBirth>
+        <vdta:ApplicantName>
+          <vdta:Surname>
+            <vdta:SourceValue PreTransliterated="true">SAIDI</vdta:SourceValue>
+            <vdta:TransliteratedValues>
+              <vdta:TransliteratedValue>SAIDI</vdta:TransliteratedValue>
+            </vdta:TransliteratedValues>
+          </vdta:Surname>
+               <vdta:Firstnames>
+                  <vdta:SourceValue PreTransliterated="true">ABDELHAKIM</vdta:SourceValue>
+                  <vdta:TransliteratedValues>
+                     <vdta:TransliteratedValue>ABDELHAKIM</vdta:TransliteratedValue>
+                  </vdta:TransliteratedValues>
+               </vdta:Firstnames>
+            </vdta:ApplicantName>
+            <vdta:Sex>0001.01</vdta:Sex>
+            <vdta:PlaceOfBirth>
+               <vdta:Country>0004.01</vdta:Country>
+               <vdta:Place>
+                  <vdta:SourceValue PreTransliterated="true">DELLYS</vdta:SourceValue>
+                  <vdta:TransliteratedValues>
+                     <vdta:TransliteratedValue>DELLYS</vdta:TransliteratedValue>
+                  </vdta:TransliteratedValues>
+               </vdta:Place>
+            </vdta:PlaceOfBirth>
+            <vdta:Owner>0008.01</vdta:Owner>
+            <vdta:ApplicationData>
+               <vdta:DateOfApplication>2013-11-17T11:45:18.0Z</vdta:DateOfApplication>
+               <vdta:DurationOfIntendedStay>90</vdta:DurationOfIntendedStay>
+               <vdta:Host>
+                  <vdta:HostOrganisation>
+                     <vdta:Address>
+                        <vdta:Country>0074.01</vdta:Country>
+                        <vdta:City>
+                           <vdta:SourceValue PreTransliterated="true">PARIS</vdta:SourceValue>
+                           <vdta:TransliteratedValues>
+                              <vdta:TransliteratedValue>PARIS</vdta:TransliteratedValue>
+                           </vdta:TransliteratedValues>
+                        </vdta:City>
+                        <vdta:PostCode>
+                           <vdta:SourceValue PreTransliterated="true">75018</vdta:SourceValue>
+                           <vdta:TransliteratedValues>
+                              <vdta:TransliteratedValue>75018</vdta:TransliteratedValue>
+                           </vdta:TransliteratedValues>
+                        </vdta:PostCode>
+                        <vdta:Street>
+                           <vdta:SourceValue PreTransliterated="true">PLACE DE LA CHAPELLE 6</vdta:SourceValue>
+                           <vdta:TransliteratedValues>
+                              <vdta:TransliteratedValue>PLACE DE LA CHAPELLE 6</vdta:TransliteratedValue>
+                           </vdta:TransliteratedValues>
+                        </vdta:Street>
+                     </vdta:Address>
+                     <vdta:Name>
+                        <vdta:SourceValue PreTransliterated="true">HOTEL DU SQUARE</vdta:SourceValue>
+                        <vdta:TransliteratedValues>
+                           <vdta:TransliteratedValue>HOTEL DU SQUARE</vdta:TransliteratedValue>
+                        </vdta:TransliteratedValues>
+                     </vdta:Name>
+                     <vdta:ContactPerson>
+                        <vdta:Surname>
+                           <vdta:SourceValue PreTransliterated="true">N/A</vdta:SourceValue>
+                           <vdta:TransliteratedValues>
+                              <vdta:TransliteratedValue>N/A</vdta:TransliteratedValue>
+                           </vdta:TransliteratedValues>
+                        </vdta:Surname>
+                        <vdta:Firstnames>
+                           <vdta:SourceValue PreTransliterated="true">N/A</vdta:SourceValue>
+                           <vdta:TransliteratedValues>
+                              <vdta:TransliteratedValue>N/A</vdta:TransliteratedValue>
+                           </vdta:TransliteratedValues>
+                        </vdta:Firstnames>
+                     </vdta:ContactPerson>
+                  </vdta:HostOrganisation>
+               </vdta:Host>
+               <vdta:IntendedBorderOfFirstEntry>
+                  <vdtc:Country>0074.01</vdtc:Country>
+                  <vdta:Place>
+                     <vdta:SourceValue PreTransliterated="true">0074.01</vdta:SourceValue>
+                     <vdta:TransliteratedValues>
+                        <vdta:TransliteratedValue>0074.01</vdta:TransliteratedValue>
+                     </vdta:TransliteratedValues>
+                  </vdta:Place>
+               </vdta:IntendedBorderOfFirstEntry>
+               <vdta:IntendedDateOfArrival>20131119</vdta:IntendedDateOfArrival>
+               <vdta:IntendedDateOfDeparture>20140304</vdta:IntendedDateOfDeparture>
+               <vdta:MainDestination>
+                  <vdta:SourceValue PreTransliterated="true">0008.01</vdta:SourceValue>
+                  <vdta:TransliteratedValues>
+                     <vdta:TransliteratedValue>0008.01</vdta:TransliteratedValue>
+                  </vdta:TransliteratedValues>
+               </vdta:MainDestination>
+               <vdta:Occupation>
+                  <vdta:Occupation>0007.01</vdta:Occupation>
+                  <vdta:EmployerName>
+                     <vdta:SourceValue PreTransliterated="true">N/A</vdta:SourceValue>
+                     <vdta:TransliteratedValues>
+                        <vdta:TransliteratedValue>N/A</vdta:TransliteratedValue>
+                     </vdta:TransliteratedValues>
+                  </vdta:EmployerName>
+                  <vdta:OtherOccupation>
+                     <vdta:SourceValue PreTransliterated="true">N/A</vdta:SourceValue>
+                     <vdta:TransliteratedValues>
+                        <vdta:TransliteratedValue>N/A</vdta:TransliteratedValue>
+                     </vdta:TransliteratedValues>
+                  </vdta:OtherOccupation>
+               </vdta:Occupation>
+               <vdta:PlaceOfApplication>
+                  <vdtc:Country>0004.01</vdtc:Country>
+                  <vdta:Place>
+                     <vdta:SourceValue PreTransliterated="true">Alger</vdta:SourceValue>
+                     <vdta:TransliteratedValues>
+                        <vdta:TransliteratedValue>Alger</vdta:TransliteratedValue>
+                     </vdta:TransliteratedValues>
+                  </vdta:Place>
+               </vdta:PlaceOfApplication>
+               <vdta:PurposeOfTravel>
+                  <vdta:PurposeType>0003.01</vdta:PurposeType>
+               </vdta:PurposeOfTravel>
+               <vdta:School>
+                  <vdta:SchoolName>
+                     <vdta:SourceValue PreTransliterated="true">N/A</vdta:SourceValue>
+                     <vdta:TransliteratedValues>
+                        <vdta:TransliteratedValue>N/A</vdta:TransliteratedValue>
+                     </vdta:TransliteratedValues>
+                  </vdta:SchoolName>
+               </vdta:School>
+               <vdta:TravelDocument>
+                  <vdta:TravelDocumentType>0001.01</vdta:TravelDocumentType>
+                  <vdta:TravelDocumentNumber>9816129</vdta:TravelDocumentNumber>
+                  <vdta:DateOfIssue>2011-08-07</vdta:DateOfIssue>
+                  <vdta:ValidUntil>2015-11-24</vdta:ValidUntil>
+                  <vdta:IssuingAuthorityOfTravelDocument>
+                     <vdta:SourceValue PreTransliterated="true">0004.01</vdta:SourceValue>
+                     <vdta:TransliteratedValues>
+                        <vdta:TransliteratedValue>0004.01</vdta:TransliteratedValue>
+                     </vdta:TransliteratedValues>
+                  </vdta:IssuingAuthorityOfTravelDocument>
+               </vdta:TravelDocument>
+               <vdta:ApplicantData>
+                  <vdta:FatherName>
+                     <vdta:Surname>
+                        <vdta:SourceValue PreTransliterated="true">N/A</vdta:SourceValue>
+                        <vdta:TransliteratedValues>
+                           <vdta:TransliteratedValue>N/A</vdta:TransliteratedValue>
+                        </vdta:TransliteratedValues>
+                     </vdta:Surname>
+                     <vdta:Firstnames>
+                        <vdta:SourceValue PreTransliterated="true">N/A</vdta:SourceValue>
+                        <vdta:TransliteratedValues>
+                           <vdta:TransliteratedValue>N/A</vdta:TransliteratedValue>
+                        </vdta:TransliteratedValues>
+                     </vdta:Firstnames>
+                  </vdta:FatherName>
+                  <vdta:NationalityAtBirth>0004.01</vdta:NationalityAtBirth>
+                  <vdta:NationalityForApplication>0004.01</vdta:NationalityForApplication>
+               </vdta:ApplicantData>
+               <vdta:ApplicationNumber>FRAALG2013146043200</vdta:ApplicationNumber>
+               <vdta:ApplicationAuthority>
+                  <vdtc:AuthorityLocation>
+                     <vdtc:Country>0004.01</vdtc:Country>
+                     <vdtc:Place>Alger</vdtc:Place>
+                  </vdtc:AuthorityLocation>
+                  <vdtc:AuthorityName>Minist?e des Affaires Etrang?es et Europ?nnes</vdtc:AuthorityName>
+                  <vdtc:AuthorityType>0001.01</vdtc:AuthorityType>
+               </vdta:ApplicationAuthority>
+               <vdta:ApplicationStatus>0010</vdta:ApplicationStatus>
+               <vdta:FingerprintsNotRequired>false</vdta:FingerprintsNotRequired>
+               <vdta:FingerprintsNotApplicable>false</vdta:FingerprintsNotApplicable>
+            </vdta:ApplicationData>
+            <vdta:Decisions>
+               <vdta:Decision>
+                  <vdta:ApplicationDecision>
+                     <vdta:GrantVisa>
+                        <vdta:Authority>
+                           <vdtc:AuthorityLocation>
+                              <vdtc:Country>0004.01</vdtc:Country>
+                              <vdtc:Place>Alger</vdtc:Place>
+                           </vdtc:AuthorityLocation>
+                           <vdtc:AuthorityName>Minist?e des Affaires Etrang?es et Europ?nnes</vdtc:AuthorityName>
+                           <vdtc:AuthorityType>0001.01</vdtc:AuthorityType>
+                        </vdta:Authority>
+                        <vdta:DecisionDate>2013-12-02T10:17:44.0Z</vdta:DecisionDate>
+                        <vdta:DecisionPlace>
+                           <vdtc:Country>0004.01</vdtc:Country>
+                           <vdta:Place>
+                              <vdta:SourceValue PreTransliterated="true">Alger</vdta:SourceValue>
+                              <vdta:TransliteratedValues>
+                                 <vdta:TransliteratedValue>Alger</vdta:TransliteratedValue>
+                              </vdta:TransliteratedValues>
+                           </vdta:Place>
+                        </vdta:DecisionPlace>
+                        <vdta:Owner>0008.01</vdta:Owner>
+                        <vdta:CreatedOn>2013-12-02T09:08:11.0Z</vdta:CreatedOn>
+                     </vdta:GrantVisa>
+                  </vdta:ApplicationDecision>
+                  <vdta:DecisionID>4502709</vdta:DecisionID>
+               </vdta:Decision>
+               <vdta:Decision>
+                  <vdta:VisaCreationDecision>
+                     <vdta:IssueVisa>
+                        <vdta:Authority>
+                           <vdtc:AuthorityLocation>
+                              <vdtc:Country>0004.01</vdtc:Country>
+                              <vdtc:Place>Alger</vdtc:Place>
+                           </vdtc:AuthorityLocation>
+                           <vdtc:AuthorityName>Minist?e des Affaires Etrang?es et Europ?nnes</vdtc:AuthorityName>
+                           <vdtc:AuthorityType>0001.01</vdtc:AuthorityType>
+                        </vdta:Authority>
+                        <vdta:DecisionDate>2013-12-02T10:17:56.0Z</vdta:DecisionDate>
+                        <vdta:DecisionPlace>
+                           <vdtc:Country>0004.01</vdtc:Country>
+                           <vdta:Place>
+                              <vdta:SourceValue PreTransliterated="true">Alger</vdta:SourceValue>
+                              <vdta:TransliteratedValues>
+                                 <vdta:TransliteratedValue>Alger</vdta:TransliteratedValue>
+                              </vdta:TransliteratedValues>
+                           </vdta:Place>
+                        </vdta:DecisionPlace>
+                        <vdta:Owner>0008.01</vdta:Owner>
+                        <vdta:CreatedOn>2013-12-02T09:40:03.0Z</vdta:CreatedOn>
+                        <vdta:VisaSticker>
+                           <vdta:VisaStickerNumber>FRA507169733</vdta:VisaStickerNumber>
+                           <vdta:VisaType>5006.01</vdta:VisaType>
+                           <vdta:PeriodOfValidity>
+                              <vdtc:Begin>2013-12-02T12:00:00.0Z</vdtc:Begin>
+                              <vdtc:End>2014-05-30T12:00:00.0Z</vdtc:End>
+                           </vdta:PeriodOfValidity>
+                           <vdta:DurationOfStay>30</vdta:DurationOfStay>
+                           <vdta:NumberOfEntries>0003.01</vdta:NumberOfEntries>
+                           <vdta:TerritorialValidity>
+                              <vdta:TravelTerritories>
+                                 <vdta:TravelTerritory>0021.01</vdta:TravelTerritory>
+                              </vdta:TravelTerritories>
+                              <vdta:ValidFor>ETATS SCHENGEN</vdta:ValidFor>
+                           </vdta:TerritorialValidity>
+                           <vdta:VisaStickerStatus>0005</vdta:VisaStickerStatus>
+                        </vdta:VisaSticker>
+                        <vdta:IssuanceOnSeparateSheet>false</vdta:IssuanceOnSeparateSheet>
+                     </vdta:IssueVisa>
+                  </vdta:VisaCreationDecision>
+                  <vdta:DecisionID>4503647</vdta:DecisionID>
+               </vdta:Decision>
+            </vdta:Decisions>
+            <vdta:Attachments>
+               <vdta:FacialImages>
+                  <vdta:FacialImage>
+                     <vdta:AttachmentID>
+                        <vdta:AttachmentIDValue>14038310</vdta:AttachmentIDValue>
+                        <vdta:AttachmentIDFormat>jpg</vdta:AttachmentIDFormat>
+                     </vdta:AttachmentID>
+                     <vdta:MasterData>
+                        <vdta:OriginalTimestamp>2013-11-19T16:09:16.0Z</vdta:OriginalTimestamp>
+                        <vdta:CreationTimestamp>2013-11-19T16:09:16.0Z</vdta:CreationTimestamp>
+                        <vdta:ImageType>0001.01</vdta:ImageType>
+                     </vdta:MasterData>
+                     <vdta:DataSource>
+                        <vdta:PortraitImage format="jpg">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</vdta:PortraitImage>
+                     </vdta:DataSource>
+                  </vdta:FacialImage>
+               </vdta:FacialImages>
+               <vdta:FingerprintSets>
+                  <vdta:FingerprintSet>
+                     <vdta:AttachmentID>
+                        <vdta:AttachmentIDValue>14038310</vdta:AttachmentIDValue>
+                        <vdta:AttachmentIDFormat>wsq</vdta:AttachmentIDFormat>
+                     </vdta:AttachmentID>
+                     <vdta:MasterData>
+                        <vdta:OriginalTimestamp>2013-11-19T16:09:24.0Z</vdta:OriginalTimestamp>
+                        <vdta:CreationTimestamp>2013-11-19T16:09:24.0Z</vdta:CreationTimestamp>
+                        <vdta:FingerprintSetType>0001.01</vdta:FingerprintSetType>
+                        <vdta:QualityCheckPassed>true</vdta:QualityCheckPassed>
+                     </vdta:MasterData>
+                  </vdta:FingerprintSet>
+               </vdta:FingerprintSets>
+            </vdta:Attachments>
+         </ApplicationExamination>
+      </ActionResult>
+   </Response>
+</CSRetrieval>

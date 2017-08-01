@@ -1,4 +1,9 @@
-<CSRetrieval xmlns="http://www.visabio.fr/france/visabio/xsd/v1/csmessages" xmlns:vdta="http://www.visabio.fr/france/visabio/xsd/v1/types/Application" xmlns:vdtc="http://www.visabio.fr/france/visabio/xsd/v1/types/Common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.visabio.fr/france/visabio/xsd/v1/csmessages CSRetrieval.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<CSRetrieval xmlns="http://www.visabio.fr/france/visabio/xsd/v1/csmessages"
+             xmlns:vdta="http://www.visabio.fr/france/visabio/xsd/v1/types/Application"
+             xmlns:vdtc="http://www.visabio.fr/france/visabio/xsd/v1/types/Common"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://www.visabio.fr/france/visabio/xsd/v1/csmessages CSRetrieval.xsd">
   <Header>
     <vdtc:MessageID>00000000077789784</vdtc:MessageID>
     <vdtc:LogicalSessionID>99000000065316255</vdtc:LogicalSessionID>
@@ -12,12 +17,15 @@
   </Header>
   <Response>
     <RCI>
-      <vdtc:ReturnCode>0000</vdtc:ReturnCode>
+      <vdtc:ReturnCode>0002</vdtc:ReturnCode>
+      <ResponseInformation>
+        <ErrorCodes>
+          <ErrorCode>1004</ErrorCode>
+        </ErrorCodes>
+      </ResponseInformation>
     </RCI>
     <ActionResult>
-      <ApplicationExamination>
-        
-      </ApplicationExamination>
-    </ActioAResult>
+      <ApplicationExamination></ApplicationExamination>
+    </ActionResult>
   </Response>
 </CSRetrieval>
