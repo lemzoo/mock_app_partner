@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CSRetrieval xmlns="http://www.visabio.fr/france/visabio/xsd/v1/csmessages" xmlns:vdta="http://www.visabio.fr/france/visabio/xsd/v1/types/Application" xmlns:vdtc="http://www.visabio.fr/france/visabio/xsd/v1/types/Common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.visabio.fr/france/visabio/xsd/v1/csmessages CSRetrieval.xsd">
+<soapenv:Envelope
+xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+xmlns:xsd="http://fr.gouv.interieur.bw/sm_get-vlsts_sync/starters/starter-soap-http/xsd"
+xmlns:ns0="http://www.visabio.fr/france/visabio/xsd/v1/nsmessages"
+xmlns:vdta="http://www.visabio.fr/france/visabio/xsd/v1/types/Application"
+xmlns:vdtc="http://www.visabio.fr/france/visabio/xsd/v1/types/Common"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.visabio.fr/france/visabio/xsd/v1/nsmessages">
+<soapenv:Header/>
+<soapenv:Body>
+<xsd:getResponse>
+<out>
+<CSRetrieval>
    <Header>
       <vdtc:MessageID>00000000077789784</vdtc:MessageID>
       <vdtc:LogicalSessionID>99000000065316255</vdtc:LogicalSessionID>
@@ -225,7 +237,7 @@
                            <vdtc:AuthorityName>Minist?e des Affaires Etrang?es et Europ?nnes</vdtc:AuthorityName>
                            <vdtc:AuthorityType>0001.01</vdtc:AuthorityType>
                         </vdta:Authority>
-                        <vdta:DecisionDate>2013-12-02T10:17:56.0Z</vdta:DecisionDate>
+                        <vdta:DecisionDate>2014-10-02T10:17:56.0Z</vdta:DecisionDate>
                         <vdta:DecisionPlace>
                            <vdtc:Country>0004.01</vdtc:Country>
                            <vdta:Place>
@@ -238,7 +250,7 @@
                         <vdta:Owner>0008.01</vdta:Owner>
                         <vdta:CreatedOn>2013-12-02T09:40:03.0Z</vdta:CreatedOn>
                         <vdta:VisaSticker>
-                           <vdta:VisaStickerNumber>FRA507169733</vdta:VisaStickerNumber>
+                           <vdta:VisaStickerNumber>FRA000000007</vdta:VisaStickerNumber>
                            <vdta:VisaType>5006.01</vdta:VisaType>
                            <vdta:PeriodOfValidity>
                               <vdtc:Begin>2014-12-02T12:00:00.0Z</vdtc:Begin>
@@ -439,3 +451,7 @@ W750KX0x3ab/AMBFbIEmR8lBYAPwBIUvA/ApcUQRX2GJD0Uf/9k=</vdta:PortraitImage>
       </ActionResult>
    </Response>
 </CSRetrieval>
+</out>
+</xsd:getResponse>
+</soapenv:Body>
+</soapenv:Envelope>
