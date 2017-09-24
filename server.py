@@ -4,6 +4,7 @@ import json
 from flask import Flask, abort, request
 
 from mock_ants import AntsMock
+from mock_fne import FneMock
 from mock_visabio import VisabioMock
 
 
@@ -13,6 +14,7 @@ app = Flask(__name__)
 def get_mocks():
     mocks = []
     mocks.append(AntsMock())
+    mocks.append(FneMock())
     mocks.append(VisabioMock())
     return mocks
 
@@ -22,7 +24,6 @@ def handle_home():
     message = request.get_json()
     context = message.get('context', {})
     mocked = context.get('mock', False)
-
     if mocked:
         return "Le message a bien ete traite avec succes"
     else:
