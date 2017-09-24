@@ -19,7 +19,7 @@ class VisabioMock(SoapMock):
             'http://www.visabio.fr/france/visabio/xsd/v1/nsmessages': None
         }
         data = parse(msg, process_namespaces=True, namespaces=namespaces)
-        nsRetrieval = data['Envelope']['Body']['getResponse']['out']['NSRetrieval']
+        nsRetrieval = data['Envelope']['Body']['NSRetrieval']
         applicationExamination = nsRetrieval['Request']['Action']['ApplicationExamination']
         visaStickerNumber = applicationExamination['IdentifierChoice']['VisaStickerNumber']
         return visaStickerNumber

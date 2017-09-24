@@ -3,6 +3,7 @@
 import json
 from flask import Flask, abort, request
 
+from mock_ants import AntsMock
 from mock_visabio import VisabioMock
 
 
@@ -11,6 +12,7 @@ app = Flask(__name__)
 
 def get_mocks():
     mocks = []
+    mocks.append(AntsMock())
     mocks.append(VisabioMock())
     return mocks
 
