@@ -5,6 +5,7 @@ from flask import Flask, abort, request
 
 from mock_ants import AntsMock
 from mock_visabio import VisabioMock
+from mock_sasfne import SasFneMock
 
 
 app = Flask(__name__)
@@ -14,7 +15,9 @@ def get_mocks():
     mocks = []
     mocks.append(AntsMock())
     mocks.append(VisabioMock())
+    mocks.append(SasFneMock())
     return mocks
+
 
 
 @app.route('/partenaire', methods=['POST'])
@@ -34,9 +37,10 @@ def handle_list_request():
     mocks = get_mocks()
     response = '{'
     for mock in mocks:
-        response += '"%s": {"status": "%s", "tag": "%s", "directory": "%s", "response time": "%s", "files": %s}' % (
+        response += '"%s": {"status": "%s", "auth:" "%s", tag": "%s", "directory": "%s", "response time": "%s", "files": %s}' % (
             mock.route,
             'enabled' if mock.enabled else 'disabled',
+            'enabled' if mock.auth else 'disabled',
             mock.variable_xpath,
             mock.responses_dir + mock.separator + mock.directory,
             mock.response_time,
