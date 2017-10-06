@@ -1,10 +1,8 @@
-#! /usr/bin/env python3
-
 import json
 from flask import Flask, abort, request
 
 from mock_ants import AntsMock
-from mock_visabio import VisabioMock
+from mock_visabio import VisaBioMock
 from mock_sasfne import SasFneMock
 
 
@@ -12,12 +10,11 @@ app = Flask(__name__)
 
 
 def get_mocks():
-    mocks = []
+    mocks = list()
     mocks.append(AntsMock())
-    mocks.append(VisabioMock())
+    mocks.append(VisaBioMock())
     mocks.append(SasFneMock())
     return mocks
-
 
 
 @app.route('/partenaire', methods=['POST'])
