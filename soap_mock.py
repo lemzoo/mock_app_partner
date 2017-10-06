@@ -1,7 +1,7 @@
 import re
 import os.path
 import time
-from flask import Response
+from flask import Response, abort
 
 
 class SoapMock:
@@ -49,7 +49,7 @@ class SoapMock:
         response_file_name = variable_value + '.' + self.extension
         response_file_path = self.generate_file_path(response_file_name)
 
-        if os.path.exists(response_file_path) == False:
+        if os.path.exists(response_file_path) is False:
             response_file_path = self.generate_file_path(self.default_response)
         print('Returned file: %s' % response_file_path)
 
@@ -80,10 +80,12 @@ class SoapMock:
 
     def check_auth(self, user, password):
         return user == self.user and password == self.password
-    
+
+
 def authenticate():
     return Response(
-    'Could not verify your access level for that URL.\n'
-    'You have to login with proper credentials', 401,
-    {'WWW-Authenticate': 'Basic realm="Login Required"'})
-    
+        'Could not verify your access level for that URL.\n'
+        'You have to login with proper credentials', 401,
+        {'WWW-Authenticate': 'Basic realm="Login Required"'}
+    )
+

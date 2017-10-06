@@ -3,7 +3,7 @@ from xmltodict import parse
 from soap_mock import SoapMock
 
 
-class VisabioMock(SoapMock):
+class VisaBioMock(SoapMock):
 
     def __init__(self):
         super().__init__('visabio')
@@ -18,6 +18,7 @@ class VisabioMock(SoapMock):
             'http://www.w3.org/2001/XMLSchema-instance': None,
             'http://www.visabio.fr/france/visabio/xsd/v1/nsmessages': None
         }
+
         data = parse(msg, process_namespaces=True, namespaces=namespaces)
         nsRetrieval = data['Envelope']['Body']['NSRetrieval']
         applicationExamination = nsRetrieval['Request']['Action']['ApplicationExamination']
