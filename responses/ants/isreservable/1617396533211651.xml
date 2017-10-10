@@ -28,7 +28,7 @@
             <numero>?</numero>
             <!--Optional:-->
             <numeroReservation>?</numeroReservation>
-            <quotite>8600</quotite>
+            <quotite>25000</quotite>
             <!--Optional:-->
             <serieTimbre>
                <codeRetour>?</codeRetour>
